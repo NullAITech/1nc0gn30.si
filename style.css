@@ -34,5 +34,5 @@ footer{padding:28px 6vw;border-top:1px solid #1c1608;color:#7a725f}
 dialog{background:#050402;color:var(--g);border:1px solid var(--g);width:min(680px,92vw);padding:14px;font:14px/1.45 var(--mono)}dialog::backdrop{background:rgba(0,0,0,.7)}
 #termOut{margin:0 0 8px;max-height:50vh;overflow:auto;white-space:pre-wrap}
 #termForm{display:flex;gap:8px}#termIn{flex:1;background:none;border:0;color:var(--fg);font:inherit;outline:none}
-@media (max-width:760px){.hero{grid-template-columns:1fr;min-height:auto;padding-top:28px}.sprite{width:min(300px,72vw);order:-1}.strip{grid-template-columns:repeat(2,1fr)}nav a{margin-left:10px}}
+@media (max-width:760px){.hero{grid-template-columns:1fr;min-height:auto;padding-top:28px}.sprite{width:min(240px,58vw);order:-1;margin:0 auto 28px}.hero-copy{z-index:3}.lattice{opacity:1;color:var(--g);filter:brightness(1.15)}.strip{grid-template-columns:repeat(2,1fr)}nav a{margin-left:10px}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
